@@ -15,7 +15,7 @@ pipeline {
 
     stage('Checkout') {
         steps {
-            git -b main https://github.com/Nachiyar2702/equalexperts.git
+            sh 'git -b main https://github.com/Nachiyar2702/equalexperts.git'
         }
     }
 
